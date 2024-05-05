@@ -3,7 +3,7 @@ Building a serverless web application using aws services
 <h1>Application Architecture</h1>
 <p>The application architecture uses AWS Lambda, Amazon API Gateway, Amazon DynamoDB, Amazon Cognito, and AWS Amplify Console. Amplify Console provides continuous deployment and hosting of the static web resources including HTML, CSS, JavaScript, and image files which are loaded in the user's browser.Also, Amplify provides a good UI to make simple web applications as an absolute beginner in AWS. JavaScript executed in the browser sends and receives data from a public backend API built using Lambda which is then connected to API Gateway. Amazon Cognito provides user management and authentication functions to secure the backend API. Finally, DynamoDB provides a persistence layer where data can be stored by the API's Lambda function.</p>
 <br>
-![Serverless_Architecture d930970c77b382db6e0395198aacccd8a27fefb7](https://github.com/yashdeored/AWS-Serverless-Website/assets/152061059/30de3828-4c3a-4dce-a696-8e713f5bc882)
+![Serverless_Architecture d930970c77b382db6e0395198aacccd8a27fefb7](https://github.com/yashdeored/AWS-Serverless-Website/Serverless_Architecture.d930970c77b382db6e0395198aacccd8a27fefb7.png)
 </br>
 <ul>
   <ol><h1>AWS Amplify</h1> hosts static web resources including HTML, CSS, JavaScript, and image files which are loaded in the user's browser.</ol>
