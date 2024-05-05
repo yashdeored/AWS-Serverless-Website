@@ -5,6 +5,12 @@ Building a serverless web application using aws services
 <br>
 ![Serverless_Architecture d930970c77b382db6e0395198aacccd8a27fefb7](https://github.com/yashdeored/AWS-Serverless-Website/assets/152061059/19b4d070-800a-45a8-afbb-8ee840a818e6)
 </br>
+<ul>
+  <ol><h1>AWS Amplify</h1> hosts static web resources including HTML, CSS, JavaScript, and image files which are loaded in the user's browser.</ol>
+  <ol><h1>Amazon Cognito</h1> provides user management and authentication functions to secure the backend API.</ol>
+  <ol><h1>Amazon DynamoDB</h1> provides a persistence layer where data can be stored by the API's Lambda function.</ol>
+  <ol><h1>Rest API</h1> JavaScript executed in the browser sends and receives data from a public backend API built using Lambda and API Gateway.</ol>
+</ul>
 <h1>Prerequisites</h1>
 <p>To complete this tutorial, you will need an AWS account, <a href="https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html">AWS CLI</a> installed, an account with <a href="https://www.arcgis.com/sharing/oauth2/authorize?client_id=arcgisonline&response_type=code&state=%7B%22portalUrl%22%3A%22https%3A%2F%2Fwww.arcgis.com%22%2C%22uid%22%3A%22RdbAUp2qODs-VliUiBqh2R2IOJi-ccUQXqgameGfiks%22%2C%22useLandingPage%22%3Atrue%2C%22clientId%22%3A%22arcgisonline%22%7D&expiration=20160&locale=en-gb&redirect_uri=https%3A%2F%2Fwww.arcgis.com%2Fhome%2Faccountswitcher-callback.html&force_login=true&redirectToUserOrgUrl=true&code_challenge=h2jXxZEBaJnnNyyr1J8tGKZZ0VQMr1zHa9ycMATy57Y&code_challenge_method=S256&display=default&hideCancel=true&showSignupOption=true&canHandleCrossOrgSignIn=true&signuptype=esri&allow_verification=true">ArcGIS</a> to add mapping to your app, a text editor, and a web browser. If you don't already have an AWS account, you can follow the Setting Up Your AWS Environment getting started guide for a quick overview.</p>
 <h1>Cost to complete</h1>
