@@ -34,6 +34,7 @@
   <ul>
     <li>
 First, create a new CodeCommit repository from within your Cloud9 terminal window:
+      
 ```
 aws codecommit create-repository \
   --repository-name wild-rydes
@@ -51,7 +52,7 @@ Split out the WildRydesVue code into its own branch:
 sudo yum install git-subtree -y
 git subtree split -P resources/code/WildRydesVue -b WildRydesVue
 ```
-      
+
 Note: You may get the error message git: 'subtree' is not a git command on Cloud9 and Amazon Linux 2. Run sudo yum install git-subtree as a workaround, as this is not installed by default with git in these environments.
 
 Create a new directory for your CodeCommit repo:
