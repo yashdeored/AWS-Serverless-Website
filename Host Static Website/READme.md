@@ -11,9 +11,20 @@
   <li>
     <ul>
     <li>
-      <h2>Create a git repositry: Using GitHub </h2>For this project there are two options either to use AWS CodeCommit or to use GitHub to store the project repo.
+      <h2>Create a git repositry: Using CodeCommit </h2>For this project we will be using AWS CodeCommit
     </li>
-      <li>Creating an IAM user: Go to IAM </li>
+      <li>Creating an IAM user: Go to IAM -> Users -> Create User</li>
+      <img width="1440" alt="Screenshot 2024-05-06 at 11 06 38 PM" src="https://github.com/yashdeored/AWS-Serverless-Website/assets/152061059/b418d3c7-4050-4af3-9dfb-57e71d169011">
+      <img width="1440" alt="Screenshot 2024-05-06 at 3 19 44 PM" src="https://github.com/yashdeored/AWS-Serverless-Website/assets/152061059/73fdf473-5b8b-4dd9-bdd0-84de765cdf71">
+      <li>User Name: app_dev -> Hit Next</li>
+      <img width="1440" alt="Screenshot 2024-05-06 at 3 22 20 PM" src="https://github.com/yashdeored/AWS-Serverless-Website/assets/152061059/9c587152-689c-4288-b608-a4b026a814b6">
+      <li>Attach Policies Directly --> Select CodeCommitFullAccess --> Hit Next</li>
+      <img width="1440" alt="Screenshot 2024-05-06 at 3 28 36 PM" src="https://github.com/yashdeored/AWS-Serverless-Website/assets/152061059/e50d7bcf-3fb7-464b-b18b-19821682e9ec">
+      <li>Finally Create User</li>
+      <img width="1440" alt="Screenshot 2024-05-06 at 3 31 13 PM" src="https://github.com/yashdeored/AWS-Serverless-Website/assets/152061059/26f9dcdc-42c7-4c05-9c03-e1895cac6e23">
+      <li>A message pops up saying User has been created</li>
+      <img width="1440" alt="Screenshot 2024-05-06 at 4 20 09 PM" src="https://github.com/yashdeored/AWS-Serverless-Website/assets/152061059/5615a31d-8ca0-4099-9247-0374f51ab0aa">
+      <li>Now Login into the AWS Console using that credentials</li>
     <li>Configure your AWS CLI on your local machine. For this we will be using VS Code. Go to your **Terminal** and paste the follwoing command: </li>
   </ul>
   </li>
