@@ -14,10 +14,9 @@
       <h2>Create a git repositry: Using CodeCommit </h2>For this project we will be using AWS CodeCommit
     </li>
       <li>Creating an IAM user: Go to IAM -> Users -> Create User</li>
-      <img width="1440" alt="Screenshot 2024-05-06 at 11 06 38 PM" src="https://github.com/yashdeored/AWS-Serverless-Website/assets/152061059/b418d3c7-4050-4af3-9dfb-57e71d169011">
       <img width="1440" alt="Screenshot 2024-05-06 at 3 19 44 PM" src="https://github.com/yashdeored/AWS-Serverless-Website/assets/152061059/73fdf473-5b8b-4dd9-bdd0-84de765cdf71">
-      <li>User Name: app_dev -> Hit Next</li>
-      <img width="1440" alt="Screenshot 2024-05-06 at 3 22 20 PM" src="https://github.com/yashdeored/AWS-Serverless-Website/assets/152061059/9c587152-689c-4288-b608-a4b026a814b6">
+      <li>User Name: ANYTHING YOU LIKE -> Hit Next</li>
+      <img width="1440" alt="Screenshot 2024-05-06 at 11 06 38 PM" src="https://github.com/yashdeored/AWS-Serverless-Website/assets/152061059/b418d3c7-4050-4af3-9dfb-57e71d169011">
       <li>Attach Policies Directly --> Select CodeCommitFullAccess --> Hit Next</li>
       <img width="1440" alt="Screenshot 2024-05-06 at 3 28 36 PM" src="https://github.com/yashdeored/AWS-Serverless-Website/assets/152061059/e50d7bcf-3fb7-464b-b18b-19821682e9ec">
       <li>Finally Create User</li>
