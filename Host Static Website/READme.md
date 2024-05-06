@@ -75,6 +75,10 @@ Push the code to your new CodeCommit repository:
 ```
 git push -u origin master
 ```
+There was a problem which I faced on my Mac which was of git: 'remote-codecommit' is not a git command. See 'git --help'. If you encounter this error run the following command:
+```
+brew install git-remote-codecommit
+```
 Remove the temporary local repository you created in step 2: 
 ```
 rm -rf ../aws-serverless-webapp-workshop</li>
